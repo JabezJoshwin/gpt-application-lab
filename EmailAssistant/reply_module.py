@@ -1,0 +1,2 @@
+def generate_reply(client,email,history,intent):
+    return client.generate("Draft a professional customer support email. Use the historical reply only as a tone/context example. Never copy its order-specific facts or promise a refund, shipment date or completed action without evidence in the new email. Acknowledge the issue and ask for necessary information. Sign Support Team.",{"customer":email,"similar_interaction":history,"intent":intent})
