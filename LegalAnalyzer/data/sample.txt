@@ -1,0 +1,9 @@
+Service Agreement
+
+Parties: Example Client and Example Studio.
+Purpose: Example Studio will build a demonstration website.
+Duration: 12 months from 1 November 2026.
+Payment: Example Client shall pay INR 10,000 after acceptance of the website.
+Obligations: Example Studio shall deliver source code. Example Client shall provide approved content.
+Confidentiality: Both parties shall keep non-public project materials confidential.
+Termination: Either party may terminate with 30 days written notice.
