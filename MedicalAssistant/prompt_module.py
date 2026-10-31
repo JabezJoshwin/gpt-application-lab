@@ -1,0 +1,3 @@
+FIELDS=["Possible Conditions","Explanation","Missing Information","Follow-up Questions"]
+def build_prompt():
+    return "Provide cautious educational information based only on the supplied profile and explicitly reported symptoms. Do not diagnose or make a clinical triage decision. Do not invent patient facts or numerical risk estimates. Mention possible conditions only as uncertain possibilities and explain at a general level, not hidden chain of thought. Ask relevant follow-up questions and identify missing information. Do not prescribe drugs or doses or give reassurance that care is unnecessary. If information is insufficient, say so. Return JSON with exact keys: "+", ".join(FIELDS)
