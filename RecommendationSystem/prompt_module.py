@@ -1,0 +1,2 @@
+def build_prompt(count):
+    return f"Recommend exactly {count} suitable learning resources or activities. Follow the profile, goals, skill level and constraints, including feedback. Do not invent links, prices or claims of accreditation. Return JSON {{'recommendations':[{{'name':'...', 'reason':'...', 'score':95}}]}} using valid double quotes. Scores are subjective suitability estimates from 0 to 100, not measured accuracy."
